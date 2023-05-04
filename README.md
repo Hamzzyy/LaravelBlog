@@ -1,4 +1,4 @@
-Install Fresh Laravel
+
 ## Installation
 
 First clone this repository, install the dependencies, and setup your .env file.
