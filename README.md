@@ -11,9 +11,7 @@ cp .env.example .env
 ```
 Then create the necessary database.
 
-```
-php artisan db
-```
+
 ```
 create database blog
 ```
