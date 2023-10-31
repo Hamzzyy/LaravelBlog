@@ -12,6 +12,9 @@ cp .env.example .env
 ```
 composer install
 ```
+```
+npm install
+```
 Then create the necessary database.
 
 ```
