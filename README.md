@@ -9,12 +9,6 @@ git clone https://github.com/ch-hamzzyy/Laravel.git
 ```
 cp .env.example .env
 ```
-```
-composer install
-```
-```
-npm install
-```
 Then create the necessary database.
 
 ```
@@ -23,6 +17,13 @@ php artisan db
 ```
 create database blog
 ```
+```
+composer install
+```
+```
+npm install
+```
+
 
 And run the initial migrations and seeders.
 
