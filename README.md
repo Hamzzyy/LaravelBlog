@@ -27,3 +27,7 @@ And run the initial migrations and seeders.
 ```
 php artisan migrate --seed
 ```
+After that you are good to go and run this command
+```
+php artisan serve
+```
