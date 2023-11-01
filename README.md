@@ -15,6 +15,9 @@ Then create the necessary database.
 ```
 create database blog
 ```
+Install Dependencies
+
+
 ```
 composer install
 ```
