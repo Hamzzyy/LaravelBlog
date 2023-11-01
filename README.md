@@ -1,7 +1,7 @@
 
 ## Installation
 
-First clone this repository and setup your .env file.
+First, clone this repository and setup your .env file.
 
 ```
 git clone https://github.com/ch-hamzzyy/Laravel.git
@@ -32,6 +32,9 @@ And run the initial migrations and seeders.
 php artisan migrate --seed
 ```
 After that you are good to go and run this command
+```
+npm run dev
+```
 ```
 php artisan serve
 ```
