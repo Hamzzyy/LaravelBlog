@@ -1,7 +1,7 @@
 
 ## Installation
 
-First clone this repository, install the dependencies, and setup your .env file.
+First clone this repository and setup your .env file.
 
 ```
 git clone https://github.com/ch-hamzzyy/Laravel.git
