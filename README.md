@@ -31,7 +31,11 @@ And run the initial migrations and seeders.
 ```
 php artisan migrate --seed
 ```
+Link Storage
 
+```
+php artisan storage:link
+```
 Generate Application Key
 ```
 php artisan key:generate
