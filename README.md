@@ -1,7 +1,7 @@
 
 ## Installation
 
-First, clone this repository and setup your .env file.
+First, clone this repository and set up your .env file.
 
 ```
 git clone https://github.com/ch-hamzzyy/Laravel.git
@@ -40,7 +40,7 @@ Generate Application Key
 ```
 php artisan key:generate
 ```
-After that you are good to go and run this command
+After that, you are good to go and run this command
 ```
 npm run dev
 ```
