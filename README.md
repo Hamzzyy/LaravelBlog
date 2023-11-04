@@ -9,7 +9,7 @@ git clone https://github.com/ch-hamzzyy/Laravel.git
 ```
 cp .env.example .env
 ```
-Then create the necessary database.
+Then create the necessary database, by default the .env will be configured as blog so feel free to change it or go with the default one.
 
 
 ```
