@@ -10,6 +10,22 @@
         scroll-behavior: smooth;
     }
 
+    ::-webkit-scrollbar {
+        width: 0.7rem;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #707070;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: black;
+        background-clip: content-box;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #424242;
+    }
     .clamp {
         display: -webkit-box;
         -webkit-box-orient: vertical;
@@ -69,22 +85,22 @@
                     </x-dropdown>
                 @else
                     <a href="/register"
-                       class="text-xs font-bold uppercase {{ request()->is('register') ? 'text-blue-500' : '' }}">
+                       class="text-xs font-bold uppercase hover:text-blue-600 {{ request()->is('register') ? 'text-blue-500' : '' }}">
                         Register
                     </a>
 
                     <a href="/login"
-                       class="ml-6 text-xs font-bold uppercase {{ request()->is('login') ? 'text-blue-500' : '' }}">
+                       class="ml-6 text-xs font-bold uppercase hover:text-blue-600 {{ request()->is('login') ? 'text-blue-500' : '' }}">
                         Log In
                     </a>
                 @endauth
 
                 <a href="/contact"
-                   class="bg-blue-500 ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-5">
+                   class="bg-blue-500 ml-3 rounded-full hover:bg-blue-600 text-xs font-semibold text-white uppercase py-3 px-5">
                     Contact Us
                 </a>
                 <a href="#newsletter"
-                   class="bg-blue-500 ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-5">
+                   class="bg-blue-500 ml-3 rounded-full hover:bg-blue-600 text-xs font-semibold text-white uppercase py-3 px-5">
                     Subscribe
                 </a>
             </div>
