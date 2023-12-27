@@ -1,4 +1,5 @@
 <x-layout>
+    <title>Contact Us - WebsiteName</title>
     <section class="xl:container m-auto px-6 md:px-12 lg:px-6">
         <div class="mt-8 animate__animated animate__fadeInDown">
             <h3 class="font-bold text-5xl">Get Started With <br>SiteName</h3>
