@@ -47,3 +47,7 @@ npm run dev
 ```
 php artisan serve
 ```
+After Making Changes, before going for production run this command
+```
+npm run build
+```
