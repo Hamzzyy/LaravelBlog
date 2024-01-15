@@ -40,7 +40,7 @@ Generate Application Key
 ```
 php artisan key:generate
 ```
-After that, you are good to go and run this command
+After that, you are good to go and run these commands in separate terminals
 ```
 npm run dev
 ```
