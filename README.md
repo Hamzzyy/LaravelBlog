@@ -4,7 +4,7 @@
 First, clone this repository and set up your .env file.
 
 ```
-git clone https://github.com/Hamzzyy/Laravel.git
+git clone https://github.com/Hamzzyy/LaravelBlog.git
 ```
 ```
 cp .env.example .env
