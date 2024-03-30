@@ -9,21 +9,44 @@
     }
 
     ::-webkit-scrollbar {
-        width: 0.7rem;
+        width: 10px;
     }
 
     ::-webkit-scrollbar-track {
-        background-color: #707070;
+        background: #f1f1f1;
+        /* Light background for light mode */
+        border-radius: 10px;
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: black;
-        background-clip: content-box;
+        background: #888;
+        /* Darker thumb for contrast in light mode */
+        border-radius: 5px;
     }
 
     ::-webkit-scrollbar-thumb:hover {
-        background-color: #424242;
+        background: #555;
+        /* Even darker on hover for light mode */
     }
+
+    /* Dark Mode Styles */
+    @media (prefers-color-scheme: dark) {
+        .dark ::-webkit-scrollbar-track {
+            background: #0F172A;
+            /* Dark background for dark mode */
+        }
+
+        .dark ::-webkit-scrollbar-thumb {
+            background: #374151;
+            /* Lighter thumb for contrast in dark mode */
+        }
+
+        .dark ::-webkit-scrollbar-thumb:hover {
+            background: #4B5563;
+            /* Lighter on hover for dark mode */
+        }
+    }
+
     .clamp {
         display: -webkit-box;
         -webkit-box-orient: vertical;
@@ -45,8 +68,7 @@
 
         <x-backtotop></x-backtotop>
         <footer id="newsletter"
-                class="bg-gray-100 border border-black border-opacity-5 rounded-xl text-center py-16 px-10 mt-16"
-        >
+            class="bg-gray-100 border border-black border-opacity-5 rounded-xl text-center py-16 px-10 mt-16">
             <img src="/images/mail.png" alt="" class="mx-auto" style="width: 145px;">
 
             <h5 class="text-3xl">Stay in touch with the latest posts</h5>
@@ -64,11 +86,8 @@
                             </label>
 
                             <div>
-                                <input id="email"
-                                       name="email"
-                                       type="text"
-                                       placeholder="Your email address"
-                                       class="lg:bg-transparent py-2 lg:py-0 pl-4 focus-within:outline-none">
+                                <input id="email" name="email" type="text" placeholder="Your email address"
+                                    class="lg:bg-transparent py-2 lg:py-0 pl-4 focus-within:outline-none">
 
                                 @error('email')
                                     <span class="text-xs text-red-500">{{ $message }}</span>
@@ -77,8 +96,7 @@
                         </div>
 
                         <button type="submit"
-                                class="transition-colors duration-300 bg-blue-500 hover:bg-blue-600 mt-4 lg:mt-0 lg:ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-8"
-                        >
+                            class="transition-colors duration-300 bg-blue-500 hover:bg-blue-600 mt-4 lg:mt-0 lg:ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-8">
                             Subscribe
                         </button>
                     </form>
@@ -87,5 +105,5 @@
         </footer>
     </section>
 
-    <x-flash/>
+    <x-flash />
 </body>
