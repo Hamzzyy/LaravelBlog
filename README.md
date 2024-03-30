@@ -57,16 +57,16 @@ npm run build
 
 ### Home Page
 
-![HomePage](https://raw.githubusercontent.com/Hamzzyy/LaravelBlog/master/screenshots/main.png)
+![HomePage](https://raw.githubusercontent.com/Hamzzyy/LaravelBlog/main/screenshots/main.png)
 
 ### Contact Page
 
-![Contact Page](https://raw.githubusercontent.com/Hamzzyy/LaravelBlog/master/screenshots/contact.png)
+![Contact Page](https://raw.githubusercontent.com/Hamzzyy/LaravelBlog/main/screenshots/contact.png)
 
 ### Dashboard
 
-![Dashboard](https://raw.githubusercontent.com/Hamzzyy/LaravelBlog/master/screenshots/dashboard.png)
+![Dashboard](https://raw.githubusercontent.com/Hamzzyy/LaravelBlog/main/screenshots/dashboard.png)
 
 ### Create New Post
 
-![Create New Post](https://raw.githubusercontent.com/Hamzzyy/LaravelBlog/master/screenshots/new.png)
+![Create New Post](https://raw.githubusercontent.com/Hamzzyy/LaravelBlog/main/screenshots/new.png)
