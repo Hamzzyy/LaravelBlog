@@ -51,3 +51,22 @@ After Making Changes, before going for production run this command
 ```
 npm run build
 ```
+
+
+## ScreenShots
+
+### Home Page
+
+![HomePage](https://raw.githubusercontent.com/Hamzzyy/LaravelBlog/master/screenshots/main.png)
+
+### Contact Page
+
+![Contact Page](https://raw.githubusercontent.com/Hamzzyy/LaravelBlog/master/screenshots/contact.png)
+
+### Dashboard
+
+![Dashboard](https://raw.githubusercontent.com/Hamzzyy/LaravelBlog/master/screenshots/dashboard.png)
+
+### Create New Post
+
+![Create New Post](https://raw.githubusercontent.com/Hamzzyy/LaravelBlog/master/screenshots/new.png)
